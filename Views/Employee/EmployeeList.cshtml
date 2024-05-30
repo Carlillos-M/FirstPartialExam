@@ -1,0 +1,40 @@
+@model EmployeeModel;
+
+@{
+    ViewData["Title"] = "Alta de Empleados";
+}
+
+<div class="text-center">
+    <h1 class="display-2">Alta de Empleados</h1>  
+</div>
+
+<form asp-controller="Employee" asp-action="EmployeeList">
+
+    <div class="mb-3">
+        <label asp-for="Id" class="form-label">Numero de Empleado</label>
+        <input type="text" class="form-control" asp-for="Id" placeholder="Escriba el Numero de Empleado" />
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" asp-for="Name" placeholder="Escriba el Nombre del Empleado" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Salary" class="form-label">Salario</label>
+        <input type="text" class="form-control" asp-for="Salary" placeholder="Escriba el Salario" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Role" class="form-label">Precio</label>
+        <input type="text" class="form-control" asp-for="Role" placeholder="Escriba el Precio" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Seniority" class="form-label">Carrera</label>
+        <input type="text" class="form-control" asp-for="Seniority" placeholder="Escriba la Antiguedad" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secundary mb-3">Regresar</a>
+</form>

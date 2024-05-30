@@ -1,0 +1,40 @@
+@model ProductModel;
+
+@{
+    ViewData["Title"] = "Alta de Productos";
+}
+
+<div class="text-center">
+    <h1 class="display-2">Alta de Productos</h1>  
+</div>
+
+<form asp-controller="Product" asp-action="ProductList">
+
+    <div class="mb-3">
+        <label asp-for="Id" class="form-label">Id Producto</label>
+        <input type="text" class="form-control" asp-for="Id" placeholder="Escriba el Id del Producto" />
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Nombre Producto</label>
+        <input type="text" class="form-control" asp-for="Name" placeholder="Escriba el Nombre del Producto" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label">Matricula</label>
+        <input type="text" class="form-control" asp-for="Price" placeholder="Escriba el Puesto" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Quantity" class="form-label">Carrera</label>
+        <input type="text" class="form-control" asp-for="Quantity" placeholder="Escriba la Antiguedad" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastMovement" class="form-label">Ultimo Movimiento</label>
+        <input type="text" class="form-control" asp-for="LastMovement" placeholder="Escriba el Ultimo Movimiento" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secundary mb-3">Regresar</a>
+</form>
