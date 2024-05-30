@@ -28,3 +28,4 @@ C:\Users\ialda\OneDrive\Documentos\UN CEMR\6. SEXTO TETRA\3. POO II\1er Parcial\
 C:\Users\ialda\OneDrive\Documentos\UN CEMR\6. SEXTO TETRA\3. POO II\1er Parcial\FirstPartialExam\FirstPartialExam\obj\Debug\net8.0\FirstPartialExam.pdb
 C:\Users\ialda\OneDrive\Documentos\UN CEMR\6. SEXTO TETRA\3. POO II\1er Parcial\FirstPartialExam\FirstPartialExam\obj\Debug\net8.0\FirstPartialExam.genruntimeconfig.cache
 C:\Users\ialda\OneDrive\Documentos\UN CEMR\6. SEXTO TETRA\3. POO II\1er Parcial\FirstPartialExam\FirstPartialExam\obj\Debug\net8.0\ref\FirstPartialExam.dll
+C:\Users\ialda\OneDrive\Documentos\UN CEMR\6. SEXTO TETRA\3. POO II\1er Parcial\FirstPartialExam\FirstPartialExam\obj\Debug\net8.0\FirstPartialExam.sourcelink.json
